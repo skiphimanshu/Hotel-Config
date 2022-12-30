@@ -1,3 +1,6 @@
+spring:
+  application:
+    name: CONFIG-DEFAULT
 eureka:
   client:
     fetch-registry: true
@@ -6,6 +9,3 @@ eureka:
       defaultZone: http://localhost:8761/eureka
   instance:
     prefer-ip-address: true
-spring:
-    application:
-      name: CONFIG-DEFAULT
